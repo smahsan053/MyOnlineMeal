@@ -1,0 +1,40 @@
+body {
+  /* background-color: red; */
+}
+#navbar {
+  /* border: 2px solid black; */
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  font-size: 0.8rem;
+}
+a {
+  padding: 3px 6px;
+}
+#home {
+  padding: 3px 30px;
+}
+#services {
+  flex-direction: column;
+  margin: auto;
+}
+#services .box {
+  padding: auto;
+  /* margin: 3px 6px; */
+}
+#services .box img {
+  height: 114px;
+}
+.box img {
+  scale: 0.7;
+}
+#clients {
+  flex-wrap: wrap;
+}
+#contact-box form {
+  width: 70%;
+}
+footer {
+  padding: 0px 6px;
+}
